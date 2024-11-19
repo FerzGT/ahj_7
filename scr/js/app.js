@@ -75,10 +75,10 @@ document.addEventListener("DOMContentLoaded", () => {
             getRemoveTicketWidget(mainContainer, currentTicket, serverUrl);
           });
         }); 
-      } catch (e) {
+      }) 
+    } catch (e) {
         console.error(e);
       }
-    }
 }
 });
   xhrLoadTickets.send();
